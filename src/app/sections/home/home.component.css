@@ -1,0 +1,7 @@
+.my-padding-top {
+  padding-top: 52px;
+}
+
+.proportions {
+  min-height: calc(100vh - 194px);
+}
