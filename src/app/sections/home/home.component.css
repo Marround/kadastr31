@@ -1,7 +1,13 @@
-.my-padding-top {
-  padding-top: 52px;
+.atd li {
+  display: flex;
+  color: #555;
 }
 
-.proportions {
-  min-height: calc(100vh - 194px);
+.atd li mat-icon {
+  margin: auto 5px;
+}
+
+.atd a {
+  text-decoration: none;
+  color: inherit;
 }

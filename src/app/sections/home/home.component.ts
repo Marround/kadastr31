@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { HomeService } from './home.service';
+declare let $: any;
 
 @Component({
   selector: 'app-home',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  lastNews: any;
+
+  constructor(private homeService: HomeService) { }
 
   ngOnInit() {
+    this.homeService.getJSON().subscribe(data => this.lastNews = data.news);
+
+    $('.carousel').carousel({
+      interval: 5000,
+      pause: false
+    });
   }
 
 }
