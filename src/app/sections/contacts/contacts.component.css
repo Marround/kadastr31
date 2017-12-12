@@ -1,0 +1,12 @@
+.mcmh {
+  min-height: calc(100vh - 184px);
+}
+.example-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.example-container > * {
+  width: 100%;
+}
+
