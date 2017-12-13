@@ -6,7 +6,7 @@
     <!--Section heading-->
     <h1 class="section-heading h1 pt-4">Как со мной связаться</h1>
     <!--Section description-->
-    <p class="section-description pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam.</p>
+    <p class="section-description pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto cum, deserunt dolores ducimus eum excepturi fugiat laudantium magnam minus modi natus nihil nisi perspiciatis quas quos reprehenderit ullam voluptatem.</p>
 
     <div class="row">
 
@@ -15,23 +15,37 @@
 
         <!--Form with header-->
         <div class="card">
-          <div class="example-container">
-            <mat-form-field>
-              <input matInput placeholder="Ваше имя">
-            </mat-form-field>
+          <div class="col-lg-12 mb-5">
+            <h3 class="text-center con-form-header">Задайте свой вопрос</h3>
+            <form>
+              <div class="example-container">
+                <mat-form-field>
+                  <span matPrefix><mat-icon class="sky-blue">account_circle</mat-icon>&nbsp;&nbsp;</span>
+                  <input matInput #uname placeholder="Ваше имя" maxlength="70" name="uName" [(ngModel)]="uName" required>
+                  <mat-hint align="end">{{uname.value.length}} / 70</mat-hint>
+                </mat-form-field>
 
-            <mat-form-field>
-              <textarea matInput placeholder="Текст сообщения"></textarea>
-            </mat-form-field>
+                <mat-form-field>
+                  <span matPrefix><mat-icon class="sky-blue">mail_outline</mat-icon>&nbsp;&nbsp;</span>
+                  <input matInput #mailfield placeholder="Email" maxlength="50" name="email" [(ngModel)]="email" required>
+                  <mat-hint align="end">{{mailfield.value.length}} / 50</mat-hint>
+                </mat-form-field>
 
-            <mat-form-field>
-              <mat-select placeholder="Select">
-                <mat-option value="option1">Option1</mat-option>
-                <mat-option value="option2">Option2</mat-option>
-                <mat-option value="option3">Option3</mat-option>
-                <mat-option value="option4">Option4</mat-option>
-              </mat-select>
-            </mat-form-field>
+                <mat-form-field class="example-full-width">
+                  <span matPrefix>+7 &nbsp;</span>
+                  <input type="tel" matInput #phonenumber placeholder="Телефон" maxlength="10" name="phone" [(ngModel)]="phone" required>
+                  <mat-hint align="end">{{phonenumber.value.length}} / 10</mat-hint>
+                </mat-form-field>
+
+                <mat-form-field>
+                  <textarea matInput #message placeholder="Текст сообщения" maxlength="256" rows="7" name="textMessage" [(ngModel)]="textMessage" required></textarea>
+                  <mat-hint align="end">{{message.value.length}} / 256</mat-hint>
+                </mat-form-field>
+
+              </div>
+              <br>
+              <button mat-fab color="primary" class="float-right align-bottom" (click)="sendMessage(uName, email, phone, textMessage)"><mat-icon>send</mat-icon></button>
+            </form>
           </div>
         </div>
         <!--Form with header-->
@@ -43,13 +57,14 @@
       <div class="col-lg-7">
 
         <!--Yandex map-->
-        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Abb0d10235e9030f3ecbfaa10dc9747d056d9c932f1d9882f97c34e7dc90c5093&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
-
+        <div class="mat-elevation-z8">
+          <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Abb0d10235e9030f3ecbfaa10dc9747d056d9c932f1d9882f97c34e7dc90c5093&amp;source=constructor" width="100%" height="450" frameborder="0"></iframe>
+        </div>
         <br>
         <!--Buttons-->
         <div class="row text-center">
           <div class="col-md-4">
-            <p>ул.Победы, д.69а, оф.14</p>
+            <p>ул.Победы, д.69а, оф.14, 3эт.</p>
             <p>Россия | Белгород</p>
           </div>
 
