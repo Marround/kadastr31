@@ -1,3 +1,15 @@
 .mcmh {
   min-height: calc(100vh - 184px);
 }
+.active {
+  background-color: #3097D1;
+  color: mintcream;
+  text-shadow: 1px 1px 2px #111, 0 0 1em #222;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px #eee, 0 0 1em #fff;
+  text-align: left;
+}

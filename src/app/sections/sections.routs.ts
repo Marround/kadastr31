@@ -7,7 +7,8 @@ import { staticPagesRouts } from './services/staticpages/index';
 export const routs = [
   {path: 'home', component: HomeComponent},
   {path: 'contacts', component: ContactsComponent},
-  {path: 'services', component: ServicesComponent, cildren: staticPagesRouts},
+  {path: 'services', redirectTo: '/services/delimitationplan', pathMatch: 'full'},
+  {path: 'services', component: ServicesComponent, children: staticPagesRouts},
   {path: '', redirectTo: '/home', pathMatch: 'full'},
   {path: '**', redirectTo: '/home'}
 ]

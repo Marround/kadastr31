@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule} from '@angular/common';
-import { RouterModule} from '@angular/router';
+import { Routes, RouterModule} from '@angular/router';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {
   MatButtonModule, MatCardModule, MatIconModule, MatListModule,
@@ -10,7 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { FormsModule } from '@angular/forms';
 import { ServicesComponent } from './services/services.component';
-import {staticPagesRouts} from './services/staticpages/staticpages.routs';
+import {staticPagesRouts, StaticPagesModule } from './services/staticpages/index';
 
 
 
@@ -27,7 +27,8 @@ import {staticPagesRouts} from './services/staticpages/staticpages.routs';
     MatInputModule,
     MatFormFieldModule,
     MatSelectModule,
-    FormsModule
+    FormsModule,
+    StaticPagesModule
   ],
   declarations: [HomeComponent, ContactsComponent, ServicesComponent],
   exports: [HomeComponent, ContactsComponent, ServicesComponent]
