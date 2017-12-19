@@ -95,7 +95,7 @@
 
       <div class="mu abk ro sp">
         <div class="mv">
-          <h6 class="abd">Последние новости</h6>
+          <h6 class="abd"><a routerLink="/news">Новости</a></h6>
           <div id="news-slider" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <ng-template ngFor let-news [ngForOf] = "lastNews"  let-i = "index">
@@ -103,12 +103,12 @@
                   <mat-card class="example-card">
                     <mat-card-header>
                       <mat-card-title>{{news.header}}</mat-card-title>
-                      <mat-card-subtitle><p class="small float-right">{{news.owner}} | {{news.date}}</p></mat-card-subtitle>
                     </mat-card-header>
                     <mat-card-content>
-                      <p>
+                      <p class="carousel-content">
                         {{news.newstext}}
                       </p>
+                      <p class="small float-right">{{news.date}}</p>
                     </mat-card-content>
                   </mat-card>
                 </div>
@@ -117,12 +117,47 @@
                   <mat-card class="example-card">
                     <mat-card-header>
                       <mat-card-title>{{news.header}}</mat-card-title>
-                      <mat-card-subtitle><p class="small float-right">{{news.owner}} | {{news.date}}</p></mat-card-subtitle>
                     </mat-card-header>
                     <mat-card-content>
-                      <p>
+                      <p class="carousel-content">
                         {{news.newstext}}
                       </p>
+                      <p class="small float-right">{{news.date}}</p>
+                    </mat-card-content>
+                  </mat-card>
+                </div>
+              </ng-template>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mu abk ro sp">
+        <div class="mv">
+          <h6 class="abd"><a routerLink="/news">Отзывы</a></h6>
+          <div id="reviewback-slider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <ng-template ngFor let-review [ngForOf] = "reviews"  let-i = "index">
+                <div class="carousel-item active" *ngIf="i==0">
+                  <mat-card class="example-card">
+                    <mat-card-header>
+                      <mat-card-title>{{review.person}}</mat-card-title>
+                    </mat-card-header>
+                    <mat-card-content>
+                      <p class="carousel-content">{{review.recall}}</p>
+                      <p class="small float-right">{{review.date}}</p>
+                    </mat-card-content>
+                  </mat-card>
+                </div>
+
+                <div class="carousel-item" *ngIf="i>0">
+                  <mat-card class="example-card">
+                    <mat-card-header>
+                      <mat-card-title>{{review.person}}</mat-card-title>
+                    </mat-card-header>
+                    <mat-card-content>
+                      <p class="carousel-content">{{review.recall}}</p>
+                      <p class="small float-right">{{review.date}}</p>
                     </mat-card-content>
                   </mat-card>
                 </div>

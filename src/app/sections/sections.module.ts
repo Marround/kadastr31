@@ -11,6 +11,8 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { FormsModule } from '@angular/forms';
 import { ServicesComponent } from './services/services.component';
 import {staticPagesRouts, StaticPagesModule } from './services/staticpages/index';
+import { NewsComponent } from './news/news.component';
+import { ReviewsComponent } from './reviews/reviews.component';
 
 
 
@@ -30,7 +32,7 @@ import {staticPagesRouts, StaticPagesModule } from './services/staticpages/index
     FormsModule,
     StaticPagesModule
   ],
-  declarations: [HomeComponent, ContactsComponent, ServicesComponent],
+  declarations: [HomeComponent, ContactsComponent, ServicesComponent, NewsComponent, ReviewsComponent],
   exports: [HomeComponent, ContactsComponent, ServicesComponent]
 })
 

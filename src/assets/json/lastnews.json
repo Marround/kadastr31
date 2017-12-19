@@ -1,13 +1,15 @@
 {
   "news" : [
     {
+      "id": "1",
       "date" : "11.12.2017",
       "owner" : "Сыромятникова Екатерина",
       "header" : "Новость 1",
       "img" : "",
-      "newstext" : "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting."
+      "newstext" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor facilis id repudiandae. A, asperiores illo labore minus optio porro. Dolor enim ex explicabo nostrum quisquam sed tenetur veritatis! Aspernatur assumenda autem consectetur dolor doloribus, eligendi explicabo harum id, libero molestiae nemo nostrum nulla temporibus voluptatem voluptatibus? Aliquam aspernatur dolor, dolorum ducimus earum id ipsam ipsum libero minus non obcaecati officiis quasi qui sit veniam? Autem consectetur culpa dicta esse incidunt nisi non quis quod veniam voluptatem! Doloremque eveniet fuga fugiat illum laudantium necessitatibus nostrum omnis quisquam repellat reprehenderit temporibus, vel vero. Aperiam blanditiis consectetur consequatur cum cumque dicta eaque est ex excepturi ipsam laudantium magnam modi mollitia nemo nisi perferendis quam quos repellendus rerum sint, soluta velit vero. A accusamus adipisci aliquid amet aperiam asperiores consequatur debitis dignissimos eaque earum eligendi et fuga harum illo, ipsa labore laboriosam minima nesciunt obcaecati perferendis placeat provident quas quis quo, reiciendis sapiente tempora, velit veniam voluptatem voluptates. Ab ducimus exercitationem harum itaque libero minus perspiciatis! Amet delectus dignissimos eius eligendi tempora? Assumenda dicta eum iure reprehenderit. Culpa doloribus eum fuga ipsam minima molestias optio provident rem soluta voluptatem. Animi aperiam enim labore molestiae officiis quae recusandae sequi soluta vel vitae. Aliquam animi architecto dolores dolorum et ex expedita hic, id inventore minus, nam natus nisi obcaecati placeat quae quasi recusandae reiciendis reprehenderit voluptates voluptatum! Adipisci aliquam, architecto consequuntur, culpa dicta est eum exercitationem incidunt itaque iusto minima molestias natus neque numquam optio quae quasi tempora ut voluptas, voluptatibus? A ad asperiores, assumenda enim expedita facere illo illum ipsam, maiores modi molestias natus nisi omnis, perspiciatis possimus quae quia saepe sint temporibus vero voluptate voluptatibus voluptatum? A consectetur deleniti dignissimos minus, necessitatibus quisquam? Commodi corporis dolorum eligendi est id non omnis voluptate? Alias aperiam dignissimos illum libero molestiae natus officiis quisquam rem suscipit veritatis!"
     },
     {
+      "id": "2",
       "date" : "11.12.2017",
       "owner" : "Сыромятникова Екатерина",
       "header" : "Новость 2",
@@ -15,6 +17,7 @@
       "newstext" : "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting."
     },
     {
+      "id": "3",
       "date" : "11.12.2017",
       "owner" : "Сыромятникова Екатерина",
       "header" : "Новость 3",
@@ -22,16 +25,42 @@
       "newstext" : "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting."
     },
     {
+      "id": "4",
       "date" : "11.12.2017",
       "owner" : "Сыромятникова Екатерина",
-      "header" : "Новость 4",
+      "header" : "Плата за землю",
+      "img" : "",
+      "newstext" : "С 1 января 2014 года в России вступает в силу федеральный закон № 307, согласно которому собственники торговых центров, офисных и ресторанных зданий будут платить 0,9% от кадастровой стоимости имущества. Ранее владельцы коммерческой недвижимости платили налог исходя из ее балансовой стоимости.У нас еще с советских времен существовала плата за фонды, превратившаяся в налог на имущество организаций, которым облагались – не только помещения, но и станки, оборудование, запасы и прочее имущество, которым владела организация», – отметила Наталия Тахтарова, директор Института проблем регистрации, оценки и налогообложения недвижимости. До сих пор налог на имущество организаций рассчитывался исходя из остаточной балансовой стоимости имущества организаций. Это создавало существенный тормоз для налогообложения, поскольку было непонятно, что именно облагается налогом. Перспективы перехода к новой форме налогообложения подробно были обсуждены специалистами в ходе международной конференции по управлению недвижимостью REMIC 2013, которая прошла недавно в Москве. Расчет налога на недвижимость от ее кадастровой стоимости позволит собирать налог только с зарегистрированного недвижимого имущества юридических лиц. «После введения этой нормы рынок недвижимости станет прозрачней, – уверена Алена Пылаева, научный руководитель Института развития территорий. – И мы сможем избавиться от недобросовестных владельцев имущества, не желающих платить налоги в полном объеме».Сегодня Россия в рейтинге наиболее благоприятных для ведения бизнеса стран занимает 17-е место. Об этом на международной конференции объявил Вадим Андропов, заместитель руководителя Федеральной службы государственной регистрации, кадастра и картографии. «Для сравнения: США заняли 25-ю позицию, Германия – 81-ю», – отметил эксперт, по мнению которого высокая позиция России в рейтинге связана с постоянным совершенствованием федерального законодательства.Несмотря на то что теперь многим собственникам коммерческой недвижимости придется платить значительно большую сумму налога, есть и такие, кому закон сыграет на руку. Эксперты в области налогообложения единодушно сходятся во мнении, что расчет налога на основе кадастровой стоимости послужит залогом развития территорий и обеспечит более справедливое налогообложение. «Владельцы новых зданий класса А, например, останутся в выигрыше, – считает Алена Пылаева. – Балансовая стоимость их объектов будет даже чуть выше, чем кадастровая».Еще одним важным шагом станет обязательная постановка недвижимости на кадастровый учет, что позволит налоговикам систематизировать базу недвижимости. «Раньше кадастр не охватывал многие объекты недвижимости, поскольку принцип постановки был заявительным, а теперь учет будет более полным, в интересах справедливого налогообложения», – подчеркнула Наталия Тахтарова.Тем не менее рассчитанный по-новому налог на имущество организаций на многих предпринимателей ляжет тяжелым бременем. Чтобы снизить расходы, владельцы торговых центров, возможно, повысят арендную ставку. А арендаторы, в свою очередь, чтобы избежать снижения дохода, могут повысить цены на товары. Однако добросовестные владельцы больших объемов непрофильной недвижимости, среди которых и организатор конференции REMIC 2013 – компания «Газпром», пойдут другим путем. «Мы намерены перепрофилировать большинство принадлежащих нам объектов, в том числе более 76 тысяч квадратных метров складских площадей», – заявил на конференции Всеволод Воробьев, начальник управления департамента по управлению имуществом и корпоративным отношениям «Газпрома».Он сообщил, что в ходе анализа активов компании было выявлено 85 складских объектов общей площадью 76 тыс. кв. м, более 120 точек питания, 25 объектов по производству питания, более 100 магазинов. Большинство из них будут перепрофилированы, остальные будут выставлены на продажу, для чего «Газпром» запускает сайт по продаже непрофильных активов.В то время как другие предприниматели заботятся о сохранении прибыли от своих торговых центров, «Газпром» планирует повышать эффективность активов, как находящихся в продаже, так и сохраняемых в собственности, и в первую очередь это касается социальных активов: медицинских объектов и объектов здравоохранения. По словам Воробьева, компания намерена решить задачу по выведению санаторно-курортного комплекса на безубыточность.Стоит напомнить, что разработка и тестирование системы кадастровой (массовой) оценки недвижимости начались в России еще в 2007 году, а затем была внедрена автоматизированная система «Мониторинг рынка недвижимости», что способствовало созданию основы для перехода к налогу на недвижимость от кадастровой стоимости. Позже, в 2011 году, был проведен анализ социально-экономических последствий введения налога на недвижимость, а год назад определена кадастровая стоимость объектов капитального строительства на территории России.На современном рынке «удельный вес» офисных и торговых помещений в перечне объектов недвижимости невелик. Большую часть объектов недвижимости – более 90% – составляют жилые помещения. И переход на кадастровую стоимость по жилым помещениям в налогообложении коснется практически всех физических лиц, поэтому такие изменения должны быть тщательно проработаны. Именно поэтому важно начать изменения с небольшого количества объектов торгового и офисного назначения, а затем поэтапно перейти к другим видам использования объектов недвижимости.В социальном плане будет справедливо, если каждый налогоплательщик будет платить налог в соответствии с рыночной стоимостью принадлежащего ему объекта недвижимости. «Налоговое бремя может быть увеличено для владельцев дорогой недвижимости путем установления повышенных ставок налога. Получаемые средства могут быть направлены на развитие территорий, ее инфраструктуры и инвестиционной привлекательности», – считает Алена Пылаева."
+    },
+    {
+      "id": "5",
+      "date" : "11.12.2017",
+      "owner" : "Сыромятникова Екатерина",
+      "header" : "Новость 5",
       "img" : "",
       "newstext" : "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting."
     },
     {
+      "id": "6",
       "date" : "11.12.2017",
       "owner" : "Сыромятникова Екатерина",
-      "header" : "Новость 5",
+      "header" : "Новость 6",
+      "img" : "",
+      "newstext" : "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting."
+    },
+    {
+      "id": "7",
+      "date" : "11.12.2017",
+      "owner" : "Сыромятникова Екатерина",
+      "header" : "Новость 7",
+      "img" : "",
+      "newstext" : "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting."
+    },
+    {
+      "id": "8",
+      "date" : "11.12.2017",
+      "owner" : "Сыромятникова Екатерина",
+      "header" : "Новость 8",
       "img" : "",
       "newstext" : "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting."
     }

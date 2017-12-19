@@ -1,0 +1,15 @@
+<div class="by acy adh mcmh">
+
+  <mat-card *ngFor="let review of reviews" class="mat-elevation-z6 mb-4">
+    <mat-card-header>
+      <mat-card-title>
+        <div>{{review.person}}</div>
+      </mat-card-title>
+    </mat-card-header>
+    <hr>
+    <mat-card-content>
+      <p>{{review.recall}}</p>
+      <p class="small float-right">{{review.date}}</p>
+    </mat-card-content>
+  </mat-card>
+</div>

@@ -11,7 +11,12 @@ declare let $: any;
 })
 export class HomeComponent implements OnInit {
 
-  lastNews: any;
+  lastNews: [];
+  reviews: any;
+
+  newsUrl = '/assets/json/lastnews.json';
+
+  reviewsUrl = '/assets/json/reviews.json';
 
   constructor(private homeService: HomeService) { }
 
@@ -19,11 +24,23 @@ export class HomeComponent implements OnInit {
 
     window.scroll(0, 0);
 
-    this.homeService.getJSON().subscribe(data => this.lastNews = data.news);
+    this.homeService.getJSON(this.newsUrl).subscribe(data => this.lastNews = data.news.filter(
+      function(tmp, index){
+        return index > data.news.length - 6;
+      })
+    );
 
-    $('.carousel').carousel({
-      interval: 5000,
-      pause: false
+    this.homeService.getJSON(this.reviewsUrl).subscribe(data => this.reviews = data.reviews.filter(
+      function(tmp, index){
+        return index > data.reviews.length - 6;
+      }
+    ));
+
+    $('#news-slider').carousel({
+      interval: 5000
+    });
+    $('#reviewback-slider').carousel({
+      interval: 7000
     });
   }
 

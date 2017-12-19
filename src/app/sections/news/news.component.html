@@ -1,0 +1,14 @@
+<div class="by acy adh mcmh">
+  <mat-card *ngFor="let newsOne of news" class="mat-elevation-z6 mb-4">
+    <mat-card-header>
+      <mat-card-title>
+        <div><a [routerLink]="['/news']" [queryParams]="{'q':newsOne.id}">{{newsOne.header}}</a></div>
+      </mat-card-title>
+    </mat-card-header>
+    <hr>
+    <mat-card-content>
+      <p>{{newsOne.newstext}}</p>
+      <p class="small float-right">{{newsOne.date}}</p>
+    </mat-card-content>
+  </mat-card>
+</div>
